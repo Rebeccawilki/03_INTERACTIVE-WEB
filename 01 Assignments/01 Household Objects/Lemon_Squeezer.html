@@ -1,0 +1,472 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title> Lemon Squeezer </title>
+
+				<h1> 
+					_3 limes (halved & squeezed)*<br>
+					_1 lemon (halved & squeezed)*<br>			
+				</h1>
+
+				<h2>
+
+					*SAFETY FIRST: Wear goggles!
+
+				</h2>	
+<style>
+
+
+				h1 {
+					color: #30D90E; 
+					margin-left: 50px;
+					margin-top: 50px;
+					font-size: 20px;
+					font-family: "roboto slab";
+					font-weight: normal;
+					letter-spacing: 1px;
+					}
+
+</style>
+
+<style>
+
+
+				h2 {
+					color: #30D90E; 
+					margin-left: 50px;
+					margin-top: 50px;
+					font-size: 12px;
+					font-family: "roboto slab";
+					font-weight: normal;
+					letter-spacing: 1px;
+					}
+
+</style>
+
+
+</head>
+
+<body>
+
+		<style>
+
+			html, body {
+			margin:0;
+			}
+
+
+			.toprectangularhinge {
+				width: 160px;
+				height: 100px;
+				border-radius: 20px;
+				background: black;
+				position: absolute;
+				transform: rotate(75deg);
+				top:100px;
+				left: 600px;
+			}
+		
+
+			.roundhingeshadow {
+				width: 50px;
+				height: 44px;
+				background: white;
+				opacity: 1;
+				border-radius: 25px / 22px;
+				transform: rotate(90deg);
+				position: absolute;
+				top: 68px;
+				left: 671px;
+			}
+
+
+			.roundhinge {
+				width: 50px;
+				height: 44px;
+				background: black;
+				opacity: 1;
+				border-radius: 25px / 22px;
+				transform: rotate(90deg);
+				position: absolute;
+				top: 68px;
+				left: 667px;
+			}
+
+
+			.topscrew {
+				width: 12px;
+				height: 12px;
+				background: white;
+				opacity: 1;
+				border-radius: 6px / 6px;
+				transform: rotate(90deg);
+				position: absolute;
+				top: 83px;
+				left: 687px;
+			}
+
+
+			.toptriangleshape {
+				width: 0;
+				height: 0;
+				border-top: 50px solid black;
+				border-left: 50px solid transparent;
+				transform: rotate(125deg);
+				position: absolute;
+				top: 46px;
+				left: 627px;
+			}
+
+
+			.smalltoprectangle {
+				width: 70px;
+				height: 30px;
+				border-radius: 20px;
+				opacity: 0.9;
+				background: black;
+				position: absolute;
+				transform: rotate(-55deg);
+				top:93px;
+				left: 576px;
+			}
+
+			.tophandle {
+				width: 700px;
+				height: 200px;
+				background: black;
+				opacity: 1;
+				border-radius: 350px / 100px;
+				transform: rotate(-35deg);
+				position: absolute;
+				top: 300px;
+				left: 50px; 
+
+			}
+
+
+
+			.tophandlenegativespace {
+				width: 700px;
+				height: 200px;
+				background: white;
+				opacity: 1;
+				border-radius: 350px / 100px;
+				transform: rotate(-35deg);
+				position: absolute;
+				top: 330px;
+				left: 100px; 
+			}
+
+			.tophandletip {
+				width: 35px;
+				height: 50px;
+				opacity: 1;
+				border-radius: 13px;
+				background: black;
+				position: absolute;
+				transform: rotate(0deg);
+				top:566px;
+				left: 135px;
+			}
+		
+			.tophandletipnegativespace {
+				width: 54px;
+				height: 54px;
+				background: white;
+				opacity: 1;
+				border-radius: 27px / 27px;
+				transform: rotate(0deg);
+				position: absolute;
+				top: 558px;
+				left: 165px;
+			}
+
+			.lowerhandle {  
+				width: 580px;
+				height: 180px;
+				background: black;
+				opacity: 1;
+				border-radius: 290px / 90px;
+				transform: rotate(104deg);
+				position: absolute;
+				top: 380px;
+				left: 350px; 
+			}
+
+
+			.lowerhandlenegativespace {
+				width: 580px;
+				height: 180px;
+				background: white;
+				opacity: 1;
+				border-radius: 290px / 90px;
+				transform: rotate(103deg);
+				position: absolute;
+				top: 395px;
+				left: 403px; 
+			}
+
+
+
+			.lowerhandletip {
+				width: 90px;
+				height: 54px;
+				background: black;
+				opacity: 1;
+				border-radius: 45px / 27px;
+				transform: rotate(60deg);
+				position: absolute;
+				top: 677px;
+				left: 535px;
+			}
+
+			.lowertipnegativespace {
+				width: 120px;
+				height: 66px;
+				background: white;
+				opacity: 1;
+				border-radius: 60px / 33px;
+				transform: rotate(99deg);
+				position: absolute;
+				top: 611px;
+				left: 558px;
+			}
+
+			.lowerheadbaseshadow {
+				width: 218px;
+				height: 210px;
+				background: white;
+				opacity: 1;
+				border-radius: 109px / 105px;
+				transform: rotate(120deg);
+				position: absolute;
+				top: 144px;
+				left: 544px;
+
+
+			}
+
+			.lowerheadbase {
+				width: 220px;
+				height: 210px;
+				background: black;
+				opacity: 1;
+				border-radius: 110px / 105px;
+				transform: rotate(120deg);
+				position: absolute;
+				top: 142px;
+				left: 537px;
+			}
+
+
+			.whiterimbase {
+				width: 220px;
+				height: 156px;
+				background: white;
+				opacity: 1;
+				border-radius: 110px / 78px;
+				transform: rotate(115deg);
+				position: absolute;
+				top: 165px;
+				left: 522px;
+			}
+
+
+			.lowerbaseinterior {
+				width: 206px;
+				height: 136px;
+				background: black;
+				opacity: 1;
+				border-radius: 103px / 68px;
+				transform: rotate(115deg);
+				position: absolute;
+				top: 176px;
+				left: 533px;
+			}
+
+			.whiteundershadow {
+				width: 210px;
+				height: 200px;
+				background: white;
+				opacity: 1;
+				border-radius: 105px / 100px;
+				transform: rotate(42deg);
+				position: absolute;
+				top: 97px;
+				left: 465px;
+			}
+
+
+			.upperbase {
+				width: 208px;
+				height: 202px;
+				background: black;
+				opacity: 1;
+				border-radius: 104px / 101px;
+				transform: rotate(42deg);
+				position: absolute;
+				top: 95px;
+				left: 463px;
+
+			}
+
+			.negativespacesuqare {
+				width: 191px;
+				height: 130px;
+				background: white;
+				opacity: 1;
+				position: absolute;
+				transform: rotate(-48deg);
+				top:60px;
+				left: 390px;
+			}
+
+
+			.whiterimupper {
+				width: 230px;
+				height: 120px;
+				background: white;
+				opacity: 1;
+				border-radius: 115px / 60px;
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 133px;
+				left: 445px;
+			}
+
+
+			.blackrimedgeupper {
+				width: 230px;
+				height: 120px;
+				background: black;
+				opacity: 1;
+				border-radius: 115px / 60px;
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 130px;
+				left: 443px;
+			}
+
+
+			.whiterimwideupper {
+				width: 220px;
+				height: 114px;
+				background: white;
+				opacity: 1;
+				border-radius: 110px / 57px;
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 127px;
+				left: 446px;
+			}
+
+
+			.upperbaseinterior {
+				width: 198px;
+				height: 102px;
+				background: black;
+				opacity: 0.9;
+				border-radius: 99px / 51px;
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 134px;
+				left: 457px;
+			}
+
+
+			.hole1 {
+				width: 8px;
+				height: 12px;
+				background: white;
+				opacity: 1;
+				border-radius: 4px / 6px;
+				transform: rotate(0deg);
+				position: absolute;
+				top: 232px;
+				left: 687px;
+			}
+
+			.hole2 {
+				width: 8px;
+				height: 12px;
+				background: white;
+				opacity: 1;
+				border-radius: 4px / 6px;
+				transform: rotate(45deg);
+				position: absolute;
+				top: 270px;
+				left: 675px;
+			}
+
+
+
+	</style> 
+
+
+
+	<div> </div>
+
+	
+	<!–– top area of the squezer––>
+
+	<div class="toprectangularhinge"> </div>
+	<div class="roundhingeshadow"> </div>
+	<div class ="roundhinge"> </div>
+	<div class="topscrew"> </div>
+	<div class="toptriangleshape"> </div>
+	<div class="smalltoprectangle"> </div>
+
+
+	<!–– top handle elements––>
+
+	<div class="tophandle"> </div>
+	<div class="tophandlenegativespace"> </div>
+	<div class="tophandletip"> </div>
+	<div class="tophandletipnegativespace"> </div>
+
+	
+	<!–– lower handle elements––>
+
+	<div class="lowerhandle"> </div>
+	<div class="lowerhandlenegativespace"> </div>
+	<div class="lowerhandletip"> </div>
+	<div class="lowertipnegativespace"> </div>
+
+	
+	<!–– lower squeezer head––>
+
+	<div class="lowerheadbaseshadow"> </div>
+	<div class="lowerheadbase"> </div>
+	<div class="whiterimbase"> </div>
+	<div class="lowerbaseinterior"> </div>
+	<div class="hole1"> </div>
+	<div class="hole2"> </div>
+
+
+	<!–– upper squeezer head––>
+
+	<div class="whiteundershadow"> </div>
+	<div class="upperbase"> </div>
+	<div class="negativespacesuqare"> </div>
+	<div class="whiterimupper"> </div>
+	<div class="blackrimedgeupper"> </div>
+	<div class="whiterimwideupper"> </div>
+	<div class ="upperbaseinterior"> </div>
+
+</body>
+
+
+		
+
+
+
+
+
+
+
+
+</html>
+
