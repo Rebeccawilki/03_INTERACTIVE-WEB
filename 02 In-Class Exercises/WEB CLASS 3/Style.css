@@ -1,0 +1,69 @@
+
+.container {
+
+	width: 1000px; 
+	margin: auto;
+}
+
+
+body {
+
+	font-family:roboto;
+	font-size: 20px;
+
+}
+
+h1	{font-size:3em;
+
+
+}
+
+h2 {
+
+	color:red;
+
+}
+
+h3 { 
+	font-family:roboto slab;
+	font-weight: bold;
+	font-size: 15px;
+
+ }
+
+
+p { 
+	font-family:roboto slab;
+	font-size: 15px;
+
+}
+
+p2 {
+	font-family:roboto slab;
+	font-size: 15px;
+	
+}
+
+
+#firstparagraph {
+	font-family:roboto slab;
+	font-weight: bold;
+	font-size: 35px;
+
+}
+
+#secondparagraph {
+font-family:roboto slab;
+	color: blue;
+	font-weight: bold;
+	font-size: 35px;
+
+}
+
+.ol {
+	list-style-type: lower-alpha;
+	font-family:roboto slab;
+	font-size: 15px;
+	
+
+}

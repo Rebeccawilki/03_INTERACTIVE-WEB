@@ -1,0 +1,13 @@
+
+.write-up {
+	font-family: "roboto";
+	font-size:40px;
+	color:red;
+}
+
+.rectangle {
+
+	width:200px;
+	height:100px;
+	background:red;
+}

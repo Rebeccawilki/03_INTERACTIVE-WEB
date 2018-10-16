@@ -1,0 +1,428 @@
+@font-face {
+		font-family: Asul;
+		src: url(../04_FONTS/Asul-Bold.ttf);
+}
+
+
+@font-face {
+		font-family: AtlasBold;
+		src: url(../04_FONTS/AtlasGrotesk-Bold.otf);
+}
+
+
+@font-face {
+		font-family: AtlasMed;
+		src: url(../04_FONTS/AtlasGrotesk-Medium.otf);
+}
+
+
+@font-face {
+	font-family: AtlasReg;
+	src: url(../04_FONTS/AtlasGrotesk-Regular.otf);
+}
+
+
+
+
+	body {
+    	background-color: #00f7ff;
+	}
+
+
+	a {
+		color:#00f7ff;
+	}
+
+  
+	.risd {
+		font-family: AtlasBold;
+		font-size: 35pt;
+		text-align: left;
+		letter-spacing: 2px;
+		color: yellow;
+		transform: rotate(-90deg);
+		top: 300px;
+		left: -220px;
+		position: fixed;
+		z-index: 40;
+}
+
+
+
+	.date {
+		font-family: AtlasBold;
+		font-size: 20pt;
+		text-align: left;
+		white-space: nowrap;
+		letter-spacing: 1px;
+		color: blue;
+		transform: rotate(-270deg);
+		top: 255px;
+		left: 1001px;
+		position: fixed;
+		z-index: 9;
+
+}
+
+
+	#maintitlep1 {
+		font-family: Asul;
+		font-size: 95pt;
+		text-align: left;
+		color: #e600c8;
+		transform: rotate(-10deg);
+		top: -60px;
+		left: 84px;
+		position: fixed;
+		z-index: 30;
+
+	}
+
+	#maintitlep1:hover {
+			color: #00f7ff;
+		}
+
+
+	#checkout {
+		font-family: Asul;
+		font-size: 30pt;
+		text-align: left;
+		color: yellow;
+		transform: rotate(-10deg);
+		top: 90px;
+		left: 470px;
+		position: fixed;
+		z-index: 30;
+		}
+
+	#checkout:hover {
+			color: blue;
+		}
+
+	/*BELOW ARE TEXT STYLING & LETTERPACING ELEMENTS*/
+
+		#span1 {
+			background-color: blue;
+			padding-left: 15px;
+			padding-right: 15px;
+			}
+
+		#italic{
+			font-style:italic;
+			}
+
+		#spacing {
+
+				letter-spacing: .25px;
+				font-style:normal;
+			}
+
+		#spacing2 {
+
+				letter-spacing: .5px;
+				font-style:normal;
+			}
+
+		#spacing3 {
+
+				letter-spacing: .75px;
+				font-style:normal;
+			}
+
+		#spacing4 {
+
+				letter-spacing: -.1px;
+				font-style:normal;
+		}	
+
+
+
+	#roon {
+		width: 290px;
+		font-family: AtlasMed;
+		font-size: 10pt;
+		text-align:left;
+		top: 300px;
+		left: 165px;
+		position: absolute;
+		z-index:25;
+		padding: 25px 20px;
+		}
+
+
+	#roonrectangle {
+		height: 540px;
+		width: 325px;
+		background-color: white;
+		outline-style: solid;
+		outline-color: #e600c8;
+		outline-width: 6px;
+		top: 300px;
+		left: 165px;
+		position: absolute;
+		z-index:5;
+		}
+
+	#rectangle1 {
+		height: 540px;
+		width: 325px;
+		background-color: #e600c8;
+		outline-style: solid;
+		outline-color: #e600c8;
+		outline-width: 6px;
+		top: 325px;
+		left: 140px;
+		position: absolute;
+		z-index:4;
+	}
+
+
+	#roonline {
+		width: 6px;
+		height: 635px;
+		background-color: #e600c8;
+		top: 252px;
+		left: 326px;
+		opacity: 1.0;
+		transform: rotate(-31deg);
+		position: absolute;
+		z-index:26;
+	}
+
+
+	#roonline-hover {
+    	opacity: 0.0;
+	}
+
+
+	#roon:hover ~ #roonline {
+    	opacity: 0.0;
+	}
+
+
+	#nelly {
+		width: 290px;
+		font-family: AtlasMed;
+		font-size: 10pt;
+		text-align:left;
+		top: 300px;
+		left: 600px;
+		position: absolute;
+		z-index:16;
+		padding: 25px 20px;
+	}
+
+
+	#nellyrectangle {
+		  height: 470px;
+		  width: 325px;
+		  background-color: white;
+		  outline-style: solid;
+		  outline-color: #e600c8;
+		  outline-width: 6px;
+		  top: 300px;
+		  left: 600px;
+		  position: absolute;
+		  z-index:5;
+	}
+
+
+	#rectangle2 {
+		  height: 470px;
+		  width: 325px;
+		  background-color: #e600c8;
+		  outline-style: solid;
+		  outline-color: #e600c8;
+		  outline-width: 6px;
+		  top: 325px;
+		  left: 575px;
+		  position: absolute;
+		  z-index:4;
+	}
+ 
+
+	#nellyline {
+		width: 6px;
+		height: 572px;
+		background-color: #e600c8;
+		top: 248px;
+		left: 760px;
+		transform: rotate(-34.75deg);
+		position: absolute;
+		z-index:18;
+	}
+
+
+	#nellyline-hover {
+	    opacity: 0.0;
+	}
+
+
+	#nelly:hover ~ #nellyline {
+	    opacity: 0.0;
+	}
+
+
+	#paul {
+		width: 290px;
+		font-family: AtlasMed;
+		font-size: 10pt;
+		text-align:left;
+		top: 930px;
+		left: 165px;
+		position: absolute;
+		z-index:8;
+		padding: 25px 20px;
+	}
+
+
+	#paulrectangle {
+		  height: 385px;
+		  width: 325px;
+		  background-color: white;
+		  outline-style: solid;
+		  outline-color: #e600c8;
+		  outline-width: 6px;
+		  top: 930px;
+		  left: 165px;
+		  position: absolute;
+		  z-index:5;
+	}
+
+
+	#rectangle3 {
+		  height: 385px;
+		  width: 325px;
+		  background-color: #e600c8;
+		  outline-style: solid;
+		  outline-color: #e600c8;
+		  outline-width: 6px;
+		  top: 955px;
+		  left: 140px;
+		  position: absolute;
+		  z-index:4;
+	}
+
+
+	#paulline {
+		width: 6px;
+		height: 505px;
+		background-color: #e600c8;
+		top: 870px;
+		left: 325px;
+		transform: rotate(-40deg);
+		position: absolute;
+		z-index:15;
+	}
+
+
+	#paulline-hover {
+	    opacity: 0.0;
+	}
+
+
+	#paul:hover ~ #paulline {
+	    opacity: 0.0;
+	}
+
+
+
+	#prem {
+		width: 290px;
+		font-family: AtlasMed;
+		font-size: 10pt;
+		text-align:left;
+		top: 860px;
+		left: 600px;
+		position: absolute;
+		z-index:6;
+		padding: 25px 20px;
+
+	}
+
+
+	#premrectangle {
+		  height: 418px;
+		  width: 325px;
+		  background-color: white;
+		  outline-style: solid;
+		  outline-color: #e600c8;
+		  outline-width: 6px;
+		  top: 860px;
+		  left: 600px;
+		  position: absolute;
+		  z-index:5;
+	}
+
+
+	#rectangle4 {
+		  height: 418px;
+		  width: 325px;
+		  background-color: #e600c8;
+		  outline-style: solid;
+		  outline-color: #e600c8;
+		  outline-width: 6px;
+		  top: 885px;
+		  left: 575px;
+		  position: absolute;
+		  z-index:4;
+	}
+
+
+	#premline {
+		width: 6px;
+		height: 532px;
+		background-color: #e600c8;
+		top: 802px;
+		left: 760px;
+		transform: rotate(-38deg);
+		position: absolute;
+		z-index:15;
+	}
+
+
+	#premline-hover {
+    	opacity: 0.0;
+	}
+
+
+	#prem:hover ~ #premline {
+    	opacity: 0.0;
+	}
+
+
+	.event-title {
+		font-family: AtlasBold;
+		font-size: 14pt;
+		color:#e600c8;
+	}
+
+
+	.event-date {
+		font-family: Asul;
+		font-size: 12pt;
+		color:black;
+	}
+
+
+	.event-description span {
+		font-style: italic;
+
+	}
+
+
+	#happyface {
+		font-family: AtlasBold;
+		font-size: 20pt;
+		text-align: left;
+		letter-spacing: 2px;
+		color: yellow;
+		transform: rotate(90deg);
+		top: 1390px;
+		left: 1130px;
+		position: absolute;
+		z-index: 40;
+	}
+
+
+
