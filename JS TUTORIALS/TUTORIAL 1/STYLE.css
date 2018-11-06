@@ -1,0 +1,17 @@
+
+.bodytext {
+	font-size: 20px;
+	font-family: roboto;
+	top: 400px;
+	left: 400px;
+}
+
+#rectangle1 {
+		height: 100px;
+		width: 50px;
+		background-color: blue;
+		top: 300px;
+		left: 300px;
+		position: absolute;
+
+}

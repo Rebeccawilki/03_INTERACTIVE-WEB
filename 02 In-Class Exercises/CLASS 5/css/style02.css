@@ -1,0 +1,21 @@
+   @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+
+html, body {
+	margin:0;
+
+	color:#FFF;
+	background:#000;
+	font-family:"Space Mono";
+}
+
+
+.listing {
+	display:grid;
+	grid-template-columns:1fr 2fr;
+	padding:3em;
+	font-size:30px;
+	border-bottom:2px solid #FFF;
+}
+
+

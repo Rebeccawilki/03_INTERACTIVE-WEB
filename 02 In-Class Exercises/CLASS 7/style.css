@@ -1,0 +1,46 @@
+body {
+
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#container {
+	max-width: 400px;
+	height: 500px;
+	margin-left: auto;
+	background:black;
+
+
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+.text2 {
+	display:none;
+}
+
+
+.text1 {
+	display:block;
+}
+
+@media (max-width:600px){
+
+
+	.text1 {
+		display: none;
+	}
+
+	.text2 {
+		display:block;
+	}
+
+
+
+
+}
+

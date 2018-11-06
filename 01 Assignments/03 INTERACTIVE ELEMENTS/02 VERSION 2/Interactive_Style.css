@@ -1,0 +1,85 @@
+body{
+	position: relative;
+	background-color:blue;
+	margin:0;
+}
+.background {
+width:100%;
+background-color: blue;
+position: relative;
+z-index: 2;
+border:0;
+padding:0
+margin:0;
+}
+
+
+.blackSquare{
+height: 2vw;
+width:2vw;
+display:inline-block;
+background-color: black;
+margin: 0px; 
+padding:0px;
+border:0px;
+float:left;
+font-size: 0;
+z-index: 25;
+opacity:0.9;
+}
+
+.red{ 
+	z-index: 1;
+	position: absolute; 
+	left: 200px; 
+	top: 200px;
+	width: 50px; 
+	height: 50px; 
+	background-color: red;
+	opacity:0.0;
+	z-index:3;
+ }
+
+ /*.red:hover {
+	opacity:1;
+
+ }*/
+
+
+ .noWork {
+ 	pointer-events: none;
+ }
+
+ .Work {
+ 	pointer-events:auto;
+ }
+
+.NSAimg {
+ 	width:20vw;
+ 	position: absolute;
+ 	left:20vw;
+ 	top:20vw;
+ 	float:left;
+ 	margin: 0px; 
+	padding:0px;
+	border:0px;
+	opacity:0;
+	z-index:1;
+ }
+
+
+
+
+.testtxt {
+	font-size:30pt;
+	font-style:bold;
+	color: red;
+	font-family:roboto mono;
+	position: absolute;
+	z-index:1;
+	left:100px;
+ 	top:60px;
+ 	opacity:0;
+
+ }
+
