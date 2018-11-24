@@ -1,0 +1,569 @@
+@font-face {
+		font-family: DrukWide;
+		src: url(../FONTS/DrukTextWide-Medium.otf);
+
+}
+
+@font-face {
+		font-family: Druk;
+		src: url(../FONTS/DrukText-Medium.otf);
+
+}
+
+
+body {
+width:1800px;
+heigh:100%;
+
+}
+
+/*HEADER*/
+
+		#Title {
+			font-family: DrukWide;
+			font-size:15pt;
+			text-align:left;
+			color: white;
+			position: absolute;
+			top:2vh;
+			left:25px;
+			letter-spacing: 1pt;
+			z-index:1;
+		}
+
+		span {
+			background-color: black;
+			padding-left: .5vh;
+			padding-right: .75vh;
+			padding-top:.45vh;
+			padding-bottom:.25vh;
+		}
+
+		#span2 {
+			color: black;
+			background-color: white;
+
+
+		}
+
+
+		hr { 
+		    display: block;
+		    color:black;
+		    background-color:black;
+		    height:1px;
+		    margin-top: 35px;		    
+		    margin-bottom: 10px;
+		    margin-left: 25px;
+		    width:1800px;
+		    margin-right: auto;
+		    border-style: inset;
+		    border-width: 1px;
+		    position:absolute;
+		    top:2vh;
+		    left:-5px;
+	
+		} 
+
+
+
+/*ARTBOARD*/	
+
+		#artboard{
+			height:1360px;
+			width:880px;
+			background-color:#eaeeee;
+			position: absolute;
+			top:150px;
+			left:320px;
+			z-index:1;
+		}
+
+/*LEFTR COLIUMN*/
+
+
+/*ENVELOPE STYLE BOXES ON LEFT*/
+
+
+
+		#box1 {
+			height:125px;
+			width:175px;
+			outline: 5px solid yellow;
+			top:150px;
+			left:25px;
+			position:absolute;
+			z-index:10;
+
+		}
+
+		#box2 {
+			height:125px;
+			width:175px;
+			outline: 5px solid yellow;
+			top:350px;
+			left:25px;
+			position:absolute;
+			z-index:10;
+
+
+
+		}
+
+		#box3 {
+			height:125px;
+			width:175px;
+			outline: 5px solid yellow;
+			top:550px;
+			left:25px;
+			position:absolute;
+			z-index:10;
+
+
+		}
+
+/*LARGE CIRCLES ON LEFT*/
+
+		 #Lcircle1 {
+		 	width: 170px; 
+		 	height: 170px; 
+		 	background: blue; 
+		 	border-radius: 50%;
+		 	top:750px;
+			left:25px;
+			position:absolute;
+    		display: inline-block;
+			z-index:10;
+		 } 
+
+		 #LcircleL {
+		 	font-family: DrukWide;
+			font-size:80pt;
+			text-align:center;
+			vertical-align: middle;
+			padding: 35px 25px 25px 25px;
+			z-index:20;
+		 }
+
+		 #Lcircle1_Att {
+			font-family: Druk;
+			font-size:12pt;
+			color:yellow;
+			margin:0;
+			line-height: 0;
+			text-align:center;
+			letter-spacing: 1pt;
+			vertical-align: middle;
+			position:absolute;
+			left:27%;
+			top:50%;
+			display: block;
+			z-index:25;
+		 }
+
+
+		 #Lcircle2 { 
+		 	width: 170px; 
+		 	height: 170px; 
+		 	background: blue; 
+		 	border-radius: 50%;
+		 	top:1000px;
+			left:25px;
+			position:absolute;
+			z-index:10;
+		 } 
+
+
+		 #LcircleL2 {
+		 	font-family: DrukWide;
+			font-size:80pt;
+			text-align:center;
+			vertical-align: middle;
+			padding: 35px 25px 25px 25px;
+
+		 }
+
+		 #Lcircle2_Att {
+			font-family: Druk;
+			font-size:12pt;
+			color:yellow;
+			margin:0;
+			line-height: 0;
+			text-align:center;
+			letter-spacing: 1pt;
+			vertical-align: middle;
+			position:absolute;
+			left:26%;
+			top:50%;
+			display: block;
+			z-index:25;
+		 }
+
+
+		 #Lcircle3 { 
+		 	width: 170px; 
+		 	height: 170px; 
+		 	background: blue; 
+		 	border-radius: 50%;
+		 	top:1250px;
+			left:25px;
+			position:absolute;
+			z-index:10;
+		 } 
+
+		 #LcircleL3 {
+		 	font-family: DrukWide;
+			font-size:80pt;
+			text-align:center;
+			vertical-align: middle;
+			padding: 35px 25px 25px 25px;
+
+		 }
+
+		 #Lcircle3_Att {
+			font-family: Druk;
+			font-size:12pt;
+			color:yellow;
+			margin:0;
+			line-height: 0;
+			text-align:center;
+			letter-spacing: 1pt;
+			vertical-align: middle;
+			position:absolute;
+			left:35%;
+			top:50%;
+			display: block;
+			z-index:25;
+		 }
+
+			#Mcircle1 {
+			 	width: 140px; 
+			 	height: 140px; 
+			 	background: white; 
+			 	border: 5px solid blue;
+			 	-moz-border-radius:50%;
+	    		-webkit-border-radius:50%;
+			 	border-radius: 50%;
+			 	top:1500px;
+				left:35px;
+				position:absolute;
+	    		display: inline-block;
+				z-index:10;
+			}
+
+
+				#McircleM1 {
+					font-family: DrukWide;
+					font-size:50pt;
+					text-align:center;
+					color:yellow;
+					vertical-align: middle;
+					padding: 40px 35px 35px 30px;
+					z-index:10;
+					 }
+
+		 		#Mcircle1_Att {
+					font-family: Druk;
+					font-size:12pt;
+					color:black;
+					margin:0;
+					line-height:0;
+					text-align:center;
+					letter-spacing: 1pt;
+					vertical-align: middle;
+					position:absolute;
+					left:19%;
+					top:50%;
+					display: block;
+					z-index:25;
+				 }
+
+
+			#Mcircle2 {
+			 	width: 140px; 
+			 	height: 140px; 
+			 	background: white; 
+			 	border: 5px solid blue;
+			 	-moz-border-radius:50%;
+	    		-webkit-border-radius:50%;
+			 	border-radius: 50%;
+			 	top:1700px;
+				left:35px;
+				position:absolute;
+	    		display: inline-block;
+				z-index:10;
+
+			}
+
+
+				#McircleM2 {
+					font-family: DrukWide;
+					font-size:50pt;
+					text-align:center;
+					color:yellow;
+					vertical-align: middle;
+					padding: 45px 35px 35px 30px;
+					z-index:10;
+
+					 }
+		 
+		 		#Mcircle2_Att {
+					font-family: Druk;
+					font-size:12pt;
+					color:black;
+					margin:0;
+					line-height:0;
+					text-align:center;
+					letter-spacing: 1pt;
+					vertical-align: middle;
+					position:absolute;
+					left:16%;
+					top:50%;
+					display: block;
+					z-index:25;
+				 }
+
+
+
+
+				#Mcircle3 {
+				 	width: 140px; 
+				 	height: 140px; 
+				 	background: white; 
+				 	border: 5px solid blue;
+				 	-moz-border-radius:50%;
+		    		-webkit-border-radius:50%;
+				 	border-radius: 50%;
+				 	top:1900px;
+					left:35px;
+					position:absolute;
+		    		display: inline-block;
+					z-index:10;
+
+				}
+
+
+
+				#McircleM3 {
+					font-family: DrukWide;
+					font-size:50pt;
+					text-align:center;
+					color:yellow;
+					vertical-align: middle;
+					padding: 40px 35px 35px 30px;
+
+					 }		
+
+
+				#Mcircle3_Att {
+					font-family: Druk;
+					font-size:12pt;
+					color:black;
+					margin:0;
+					line-height:0;
+					text-align:center;
+					letter-spacing: 1pt;
+					vertical-align: middle;
+					position:absolute;
+					left:35%;
+					top:50%;
+					display: block;
+					z-index:25;
+				 }
+			 
+
+/*TEXT FORMATTING BUTTONS ON RIGHT*/
+
+/*TITLE 1*/
+
+		#Titlebox1 {
+			width: 400 px;
+			height: 130 px;
+			padding: 7px 10px 4px 10px;
+			background-color: blue;
+			top:150px;
+			left:1320px;
+			position:absolute;
+			float:left;
+			white-space: nowrap;
+			z-index:10;
+		}
+
+
+		#Titleformat1 {
+			font-family: DrukWide;
+			font-size:17pt;
+			text-align:left;
+			color: yellow;
+			position: relative;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+
+		#Titlebox2 {
+			width: 400 px;
+			height: 130 px;
+			padding: 7px 10px 4px 10px;
+			background-color: blue;
+			top:200px;
+			left:1320px;
+			position:absolute;
+			white-space: nowrap;
+    		display: inline-block;
+			z-index:10;
+		}
+
+
+		#Titleformat2 {
+			font-family: DrukWide;
+			font-size:17pt;
+			fill: none;
+			color:blue;
+			-webkit-text-stroke-width: 1px;
+    		-webkit-text-stroke-color: yellow;
+			text-align:left;
+			position: relative;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+
+		#Titlebox3 {
+			width: 400 px;
+			height: 130 px;
+			padding: 7px 10px 4px 10px;
+			background-color: blue;
+			top:250px;
+			left:1320px;
+			position:absolute;
+			white-space: nowrap;
+    		display: inline-block;
+			z-index:10;
+		}
+
+
+		#Titleformat3 {
+			font-family: DrukWide;
+			font-size:17pt;
+			fill: none;
+			color:white;
+			text-align:left;
+			position: relative;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+		#Titlebox4 {
+			width: 400 px;
+			height: 130 px;
+			padding: 7px 10px 4px 10px;
+			background-color: blue;
+			top:300px;
+			left:1320px;
+			position:absolute;
+			white-space: nowrap;
+    		display: inline-block;
+			z-index:10;
+		}
+
+
+		#Titleformat4 {
+			font-family: DrukWide;
+			font-size:17pt;
+			fill: none;
+			color:black;
+			text-align:left;
+			position: relative;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+
+/*TITLE 2*/
+
+		#Title2box1 {
+			width: 400 px;
+			height: 130 px;
+			padding: 7px 10px 4px 10px;
+			background-color: blue;
+			top:380px;
+			left:1320px;
+			position:absolute;
+			float:left;
+			white-space: nowrap;
+			z-index:10;
+		}
+
+
+		#Title2format1 {
+			font-family: DrukWide;
+			font-size:17pt;
+			text-align:left;
+			color: yellow;
+			position: relative;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+
+		#Title2box2 {
+			width: 400 px;
+			height: 130 px;
+			padding: 7px 10px 4px 10px;
+			background-color: blue;
+			top:430px;
+			left:1320px;
+			position:absolute;
+			float:left;
+			white-space: nowrap;
+			z-index:10;
+		}
+
+
+		#Title2format2 {
+			font-family: DrukWide;
+			font-size:17pt;
+			fill: none;
+			color:blue;
+			-webkit-text-stroke-width: 1px;
+    		-webkit-text-stroke-color: yellow;
+			text-align:left;
+			position: relative;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+
+
+
