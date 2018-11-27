@@ -1,0 +1,269 @@
+@font-face {
+		font-family: DrukWide;
+		src: url(../FONTS/DrukTextWide-Medium.otf);
+
+}
+
+@font-face {
+		font-family: Druk;
+		src: url(../FONTS/DrukText-Medium.otf);
+}
+
+
+body {
+width:1800px;
+heigh:100%;
+}
+
+/*TOP MENU*/
+
+		#MainMenu {
+			font-family: DrukWide;
+
+			font-size:20pt;
+			text-align:left;
+			text-decoration: underline;
+			top:10px;
+			left:20px;
+			position:absolute;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+		}
+
+
+/*ATTRIBUTE/MENU BUTTONS*/
+
+
+		#title1_menubox {
+			padding: 1em;
+			border:1px solid #000;
+			top:150px;
+			right:200px;
+			background-color:yellow;
+			position:absolute;
+			float:left;
+			white-space: nowrap;
+			z-index:10;
+			height:0.8em;
+			overflow:hidden;
+			transition:all 0.2s;
+		}
+
+
+		#title1_menubox:hover {
+			height:auto;
+		}
+		
+
+		#title1_menu {
+			font-family: DrukWide;
+			font-size:17pt;
+			text-align:left;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+		}
+
+		#title1_rotate{
+			cursor:pointer;
+		}
+
+		#title1_color{
+			cursor:pointer;
+		}
+
+		#title1_fill{
+			cursor:pointer;
+		}
+
+
+
+
+		#title2_menubox {
+			padding: 1em;
+			border:1px solid #000;
+			top:450px;
+			right:200px;
+			position:absolute;
+			float:left;
+			white-space: nowrap;
+			z-index:10;
+			height:0.8em;
+			overflow:hidden;
+			transition:all 0.2s;
+		}
+
+
+		#title2_menubox:hover {
+			height:auto;
+		}
+
+
+		#title2_menu {
+			font-family: DrukWide;
+			font-size:17pt;
+			text-align:left;
+			text-align:center;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+
+		}
+
+
+
+		#title2_rotate{
+			cursor:pointer;
+		}
+
+		#title2_color{
+			cursor:pointer;
+		}
+
+		#title2_fill{
+			cursor:pointer;
+		}
+
+
+		#lcircle_color {
+			width: 120px; 
+		 	height: 120px; 
+		 	background-color: blue; 
+		 	border-radius: 50%;
+			top:650px;
+			right:200px;
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor:pointer;
+		}
+
+	
+
+		#lcircle_fill {
+			width: 120px; 
+		 	height: 120px; 
+		 	background-color: blue; 
+		 	border-radius: 50%;
+			top:800px;
+			right:200px;
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+		}
+
+
+		#lcircle_placement {
+			width: 120px; 
+		 	height: 120px; 
+		 	background-color: blue; 
+		 	border-radius: 50%;
+			top:950px;
+			right:200px;
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor:pointer;
+		}
+
+
+
+		.lcircle_label {
+			font-family: Druk;
+			font-size:12pt;
+			letter-spacing: 1pt;
+			color: yellow;
+			margin:0;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:absolute;
+			left:10%;
+			top:50%;
+			z-index:12;
+		}
+
+
+	
+
+/*ARTBOARD ELEMENTS*/	
+
+		#artboard{
+			height:1700px;
+			width:1100px;
+			background-color:#eaeeee;
+			position: relative;
+			left:10px;
+			top:100px;
+			z-index:1;
+			transform-origin:0% 0%;
+			overflow:hidden;
+		}
+
+
+		#Title1 {
+
+			font-family: DrukWide;
+			font-size:100px;
+			color:black;
+			position:absolute;
+			left:50px;
+			top:100px;
+			z-index:3;
+		}
+
+
+
+		#Title2 {
+
+			font-family: DrukWide;
+			font-size:100px;
+			position:absolute;
+			left:50px;
+			top:500px;
+			z-index:3;
+		}
+
+
+		#LCircle {
+		 	width: 400px; 
+		 	height: 400px; 
+		 	background: blue; 
+		 	border-radius: 50%;
+		 	top:650px;
+			left:20px;
+			position:absolute;
+			z-index:2;
+
+		}
+
+
+
+
+
+.blue {
+	color:blue;
+}
+
+.yellow {
+	color:yellow;
+}
+	
+
+
+
+
+
+
+
+
+
