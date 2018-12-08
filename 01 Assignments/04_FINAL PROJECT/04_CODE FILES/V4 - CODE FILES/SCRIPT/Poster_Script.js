@@ -102,6 +102,22 @@
 		})
 
 
+//CIRCLE FILL/OUTLINE FUNCTIONS:
+
+	var CircleisStroked = false; //indicates the default type style as not stroked
+
+	
+	$("#circle_fill").click(function(){ //selecting titl1fill button and creating a click function with it
+			if (CircleisStroked == false){ //is a comparative, saying if isStroked is false...
+				CircleisStroked = true; //then when you click on it it goes to isStroked is true
+			$("#LCircle").css('outline', '4px', circleColorArray[index]);
+			$("#LCircle").css('background-color','white');
+		    }else{ //when the stroke is true, when you click on it, it goes back to the false (default) setting
+		    	isStroked = false;
+			$("#LCircle").css('outline','0px');
+			$("#LCircle").css('background-color', circleColorArray[index]);
+		    }
+		})
 
 //FUNCTION THAT ALLOWS PEOPLE TO EDIT THE CONTENT IN THE TEXT BOX IN THE ARTBOARD:
 
@@ -110,6 +126,10 @@
 			.attr("contenteditable","true")
 		}) //when you click on title format1, allow the user to edit the text content
 
+	$("#Title2").click(function(){
+			$(this)
+			.attr("contenteditable","true")
+		}) 
 
 //CONNECTS #titlerotate BUTTON WITH THE ROTATE FUNCTION
 

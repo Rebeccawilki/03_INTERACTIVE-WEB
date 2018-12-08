@@ -1,0 +1,23 @@
+#MENU_LEFT,
+#MainMenu,
+#MENU_RIGHT {
+	display:none;
+}
+
+
+.print  {
+	top:0px !important;
+	left:0px !important;
+	margin:0 !important;
+	padding: 0 !important;
+	position:absolute !important;
+	transform: scale(1)!important;
+	background:white !important;
+    -webkit-print-color-adjust: exact; 
+    visibility: visible !important;}
+
+body{margin:0 !important;visibility: hidden !important;}
+
+
+
+

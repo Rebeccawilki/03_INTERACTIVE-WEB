@@ -1,0 +1,768 @@
+@font-face {
+		font-family: DrukWide;
+		src: url(../FONTS/DrukTextWide-Medium.otf);
+
+}
+
+@font-face {
+		font-family: Druk;
+		src: url(../FONTS/DrukText-Medium.otf);
+}
+
+	
+body {
+width:100%;
+max-height:110vh;
+margin:0;
+}
+
+
+/*.custom {
+cursor: url(../CURSOR/Cursor_Arrow-01.png), default;
+}*/
+		body {
+		  
+		    /*background:
+		        linear-gradient(-90deg, rgba(220, 220, 220, 1.03) 1px, transparent 1px),
+		        linear-gradient(rgba(220, 220, 220, 1.03) 1px, transparent 1px),
+		        linear-gradient(-90deg, rgba(220, 220, 0, 1.03) 1px, transparent 1px),
+		        linear-gradient(rgba(220, 220, 0, 1.03) 1px, transparent 1px),
+		        linear-gradient(transparent 3px, transparent 3px, transparent 78px, transparent 78px),
+		        linear-gradient(-90deg, transparent 1px, transparent 1px),
+		        linear-gradient(-90deg, transparent 3px, transparent 3px, transparent 78px, transparent 78px),
+		        linear-gradient(transparent 1px, transparent 1px), transparent;
+		    	background-size:
+			        15px 15px,
+			        15px 15px,
+			        15px 15px,
+			        15px 15px,
+			        15px 15px,
+			        15px 15px,
+			        15px 15px,
+			        15px 15px;*/
+		
+			       background-color:#F8F8F8; 
+		} 
+
+
+
+/*TOP MENU*/
+
+		#MainMenu {
+			font-family: DrukWide;
+			font-size:20pt;
+			text-align:left;
+			text-decoration: underline;
+			top:10px;
+			left:20px;
+			position:absolute;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+		}
+
+/*ARTBOARD ELEMENTS*/	
+
+		#artboard{
+			height:1700px;
+			width:1100px;
+			background-color:#DCDCDC;
+			position: relative;
+			left:270px;
+			top:50px;
+			z-index:1;
+			transform-origin:0% 0%;
+			overflow:hidden;
+		}
+
+
+		#Title1 {
+
+			font-family: DrukWide;
+			font-size:190px;
+			color:black;
+			position:absolute;
+			text-transform: uppercase;
+			left:50px;
+			top:50px;
+			z-index:3;
+			width:1000px;
+		}
+
+
+
+		#Title2 {
+
+			font-family: DrukWide;
+			font-size:190px;
+			position:absolute;
+			color:yellow;
+			text-transform: uppercase;
+			left:50px;
+			top:500px;
+			z-index:4;
+			/*transform: rotate(-90deg);*/
+			width:1000px;
+		}
+
+
+		#MainSub{
+
+			font-family: DrukWide;
+			font-size:45px;
+			position:absolute;
+			color:blue;
+			text-align:left;
+			vertical-align: middle;
+			text-transform: uppercase;
+			left:50px;
+			top:1100px;
+			z-index:3;
+			/*word-wrap:normal;*/
+			width:500px;
+		}
+
+
+		#MainSubBack {
+			background-color:yellow;
+			padding-left:10px;
+			padding-right:10px;
+			padding-top:5px;
+		}
+
+		#Sub2 {
+			font-family: Druk;
+			font-size:30px;
+			position:absolute;
+			color:black;
+			text-align:left;
+			vertical-align: middle;
+			left:60px;
+			top:1300px;
+			z-index:3;
+			word-wrap:normal;
+			width:400px;
+
+		}
+
+		#Sub3 {
+			font-family: Druk;
+			font-size:30px;
+			position:absolute;
+			color:blue;
+			text-align:left;
+			vertical-align: middle;
+			left:60px;
+			top:1350px;
+			z-index:3;
+			word-wrap:normal;
+			width:400px;
+
+		}
+
+		#Paragraph {
+			font-family: Druk;
+			font-size:15px;
+			position:absolute;
+			color:black;
+			text-align:left;
+			vertical-align: middle;
+			left:60px;
+			top:1400px;
+			z-index:3;
+			word-wrap:normal;
+			text-align: justify;
+			text-justify: inter-word;
+			width:400px;
+
+		}
+
+		#LCircle {
+		 	width: 400px; 
+		 	height: 400px; 
+		 	background: blue; 
+		 	border-radius: 50%;
+		 	top:650px;
+			left:20px;
+			position:absolute;
+			z-index:2;
+
+		}
+
+
+		#MCircle {
+		 	width: 250px; 
+		 	height: 250px; 
+		 	background: transparent; 
+		 	border: 6px solid yellow;
+		 	border-radius: 50%;
+		 	top:1200px;
+			left:400px;
+			position:absolute;
+			z-index:2;
+
+		}
+
+
+		#Rectangle {
+			height: 325px;
+			width: 500px;
+			background-color: none;
+			outline-style: solid;
+			outline-color: blue;
+			outline-width: 5px;
+			top: 1300px;
+			left: 550px;
+			position: absolute;
+			z-index:25;
+			}
+
+		#RectangleLine1 {
+			width: 5px;
+			height: 596px;
+			left:248px;
+			top:-136px;
+			background-color: blue;
+			transform: rotate(-56.9deg);
+			position: absolute;
+			z-index:25;
+		}
+
+		#RectangleLine2	{
+			width: 5px;
+			height: 596px;
+			left:248px;
+			top:-136px;
+			background-color: blue;
+			transform: rotate(56.9deg);
+			position: absolute;
+			z-index:25;
+		}
+
+		#Bar1 {
+			width:950px;
+			height:170px;
+			background-color:blue;
+			top:46px;
+			left:50px;
+			position:absolute;
+			z-index:1;
+
+		}
+
+
+/*ATTRIBUTE/MENU BUTTONS*/
+
+/*TEXT BUTTONS*/
+
+		#MENU_RIGHT {
+			width:400px;
+			height:100vh;
+			top:50px;
+			right:140px;
+			/*overflow: scroll;*/
+			background-color:transparent;
+			z-index:10;
+			position:absolute ;
+			/*-ms-overflow-style: none;
+			scrollbar-disp*/
+		}
+
+		.menustyle {
+			transition:all 0.2s;
+		}
+
+		.menustyle:hover {
+			text-indent:10px;
+		}
+
+
+		.title_menubox {
+			padding:0.25em;
+			white-space: nowrap;
+			height:1.1em;
+			overflow:hidden;
+			transition:all 0.2s;
+			cursor:pointer;		
+			margin:0.5em 0em 1em 0em; 
+			width: 18em;
+		}
+
+		.title_menubox:hover {
+			height:6.7em;
+		}
+		
+
+		#title1_menubox {background-color:black; }
+		#title2_menubox {background-color:yellow; }
+		#mainsub_menubox {background-color:blue; }
+		#sub2_menubox {background-color:black;}
+		#sub3_menubox {background-color:blue;}
+		#para_menubox {background-color:yellow;}
+
+
+
+		#title1_menu{
+			font-family: DrukWide;
+			color:white;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:6;
+		}
+
+
+		.title1_menustyle {
+			font-family: DrukWide;
+			color:yellow;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:6;
+			cursor:pointer;
+		}
+
+
+		#title2_menu {
+			font-family: DrukWide;
+			color:black;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:5;
+		}
+
+
+		.title2_menustyle{
+			font-family: DrukWide;
+			color:blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:5;
+			cursor:pointer;
+		}
+
+
+		#mainsub_menu {
+			font-family: DrukWide;
+			color: white;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:4;
+			cursor:pointer;
+		}
+		
+		.mainsub_menustyle {
+			font-family: DrukWide;
+			color:black;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:4;
+			cursor:pointer;
+		}
+
+		#sub2_menu {
+			font-family: DrukWide;
+			color: yellow;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:3;
+			cursor:pointer;
+		}
+		
+		.sub2_menustyle {
+			font-family: DrukWide;
+			color:blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:3;
+			cursor:pointer;
+
+		}
+
+		#sub3_menu {
+			font-family: DrukWide;
+			color: white;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:2;
+			cursor:pointer;
+		}
+		
+		.sub3_menustyle {
+			font-family: DrukWide;
+			color:yellow;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:2;
+			cursor:pointer;
+		}
+
+
+		#para_menu {
+			font-family: DrukWide;
+			color: blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+			cursor:pointer;
+		}
+		
+		.para_menustyle {
+			font-family: DrukWide;
+			color:black;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+			cursor:pointer;
+		}
+
+
+/*SHAPE BUTTONS*/
+
+
+		#bar_menu_container {
+			padding:0.25em;
+			white-space: nowrap;
+			height:40em;
+			overflow:hidden;
+			transition:all 0.2s;
+			cursor:pointer;		
+			margin:0.5em 0em 1em 0em; 
+			width: 18em;
+		}
+
+		.bar1_style {
+			width:60px;
+			height:200px;
+			background-color:blue;
+			top:340px;
+			z-index:10;
+			padding:0;
+
+		}
+
+		.bar1_label {
+			font-family: Druk;
+			color:yellow;
+			font-size:12pt;
+			text-align:center;
+			line-height: 0;
+			left:2%;
+			top:50%;
+			position:relative;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			transform:rotate(90deg);
+			margin:0;
+			z-index:1;
+			padding:0;
+			cursor:pointer;
+		}
+
+		.lcircle_label {
+			font-family: Druk;
+			font-size:12pt;
+			letter-spacing: 1pt;
+			color: yellow;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+		}
+
+
+		#bar1_color{
+			left:-50px;
+
+		}
+
+		#bar1_move {
+			left:50px;
+
+		}
+
+		#bar1_rotate {
+			left:150px;
+
+		}
+
+
+
+/*LEFT MENU ITEMS*/
+
+/*SHAPE BUTTONS*/
+
+
+		#MENU_LEFT {
+			width:200px;
+			height:100vh;
+			top:50px;
+			left:20px;
+			overflow: scroll;
+			background-color:transparent;
+			z-index:10;
+			position:absolute ;
+		}
+
+
+	/*RECTANGLE OBJECT BUTTONS:*/
+
+		.rectangle_label {
+			font-family: Druk;
+			font-size:12pt;
+			letter-spacing: 1pt;
+			color: blue;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+	}
+
+		.rectangle_attribute {
+			height: 80px;
+			width: 125px;
+			background-color: white;
+			outline-style: solid;
+			outline-color: yellow;
+			outline-width: 3px;
+			position: absolute;
+			z-index:3;
+			cursor:pointer;
+
+		}
+
+
+		.rectattribute_line1 {
+			width: 2.5px;
+			height: 148px;
+			left:61px;
+			top:-35px;
+			background-color: yellow;
+			transform: rotate(58deg);
+			position: absolute;
+			z-index:3;
+	}
+
+		.rectattribute_line2 {
+			width: 2.5px;
+			height: 148px;
+			left:61px;
+			top:-35px;
+			background-color: yellow;
+			transform: rotate(-58deg);
+			position: absolute;
+			z-index:3;
+	}
+
+		#rectangle_color {
+			top: 10px;
+			left: 30px;
+	}
+
+		#rectangle_move {
+			top: 120px;
+			left: 30px;
+	}
+
+
+		#rectangle_rotate {
+			top: 235px;
+			left: 30px;
+	}
+
+	
+
+/*L CIRCLE OBJECT BUTTONS:*/
+
+		.lcircle_style {
+			width: 120px; 
+		 	height: 120px; 
+		 	background-color: blue; 
+		 	border-radius: 50%;	
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor:pointer;
+		}
+
+
+		#lcircle_color {
+			top:350px;
+			left:30px;
+		}
+
+
+		#lcircle_fill {
+			top:500px;
+			left:30px;
+	
+		}
+
+		#lcircle_placement {
+			top:650px;
+			left:30px;
+		}
+
+
+		.lcircle_label {
+			font-family: Druk;
+			font-size:12pt;
+			letter-spacing: 1pt;
+			color: yellow;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+		}
+
+		.LargeL {
+			font-family: Druk;
+			font-size:70pt;;
+			color: black;
+			margin:none;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:3;
+
+		}
+
+
+	/*M CIRCLE OBJECT BUTTONS:*/
+
+		.mcircle_style {
+			width: 90px; 
+		 	height: 90px; 
+		 	background-color: white; 
+		 	border-radius: 50%;
+		 	border:3px solid blue;
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor:pointer;
+		}
+
+		.mcircle_label {
+			font-family: Druk;
+			font-size:12pt;
+			letter-spacing: 1pt;
+			color: black;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+		}
+
+		.MedM {
+			font-family: Druk;
+			font-size:50pt;;
+			color: yellow;
+			margin:none;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:3;
+		}
+
+
+		#mcircle_color {
+			top:800px;
+			left:40px;
+		}
+
+	
+		#mcircle_fill {
+			top:920px;
+			left:40px;
+		}
+
+
+		#mcircle_placement {
+			top:1040px;
+			left:40px;
+		}
+
+
+
+	
+
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+

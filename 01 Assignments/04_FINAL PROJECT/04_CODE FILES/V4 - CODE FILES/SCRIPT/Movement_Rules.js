@@ -61,6 +61,6 @@ $("#lcircle_placement").click(function(){
 	//$("#LCircle").css("top",coords[index].y+"px")
 	//$("#LCircle").css("left",coords[index].x+"px")
 
-$("#LCircle").css("top",(Math.floor(Math.random() * 1500 ) + 1)+"px")
-$("#LCircle").css("left",(Math.floor(Math.random() * 1500 ) + 1)+"px")
+$("#LCircle").css("top",(Math.floor(Math.random() * 1000) + 1)+"px") 
+$("#LCircle").css("left",(Math.floor(Math.random() * 1600 ) + 1)+"px")
 }); 
