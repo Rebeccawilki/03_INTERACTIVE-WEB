@@ -1,0 +1,996 @@
+	@font-face {
+			font-family: DrukWide;
+			src: url(../FONTS/DrukTextWide-Medium.otf);
+
+	}
+
+	@font-face {
+			font-family: Druk;
+			src: url(../FONTS/DrukText-Medium.otf);
+	}
+
+
+
+	body {
+	width:100%;
+	max-height:110vh;
+	margin:0;
+	background-color:#F5F5F5; 
+	cursor: url(../CURSOR/Cursor_Arrow-Blue.png), default;
+	}
+
+		
+	::-webkit-scrollbar { 
+	    display: none;  
+	    }
+
+
+/*PAGE TITLE TITLE*/
+
+		.MainMenuContainer {
+			width:200%;
+			background-color:yellow;
+			height:27px
+		}
+
+		.MainMenu {
+			font-family: DrukWide;
+			color:blue;
+			font-size:17pt;
+			text-align:left;
+			width:100%;
+			top:-18px;
+			left:0px;
+			position:absolute;
+			vertical-align: center;
+			letter-spacing: 1pt;
+			margin:1em auto;
+			z-index:1;
+			overflow:hidden;
+		}
+
+	
+	
+
+/*ARTBOARD & ELEMENTS ON IT*/	
+
+		#artboard{
+			height:1700px;
+			width:1100px;
+			background-color:#DCDCDC;
+			position: relative;
+			left:20%;
+			top:30px;
+			z-index:1;
+			transform-origin:0% 0%;
+			overflow:hidden;
+		}
+
+
+		#Title1 {
+
+			font-family: DrukWide;
+			font-size:190px;
+			color:black;
+			position:absolute;
+			text-transform: uppercase;
+			left:50px;
+			top:50px;
+			z-index:3;
+			width:1000px;
+			cursor: url(../CURSOR/Cursor_DExclamation-Yellow.png), pointer;
+		}
+
+		.hoverWhiteTitle {
+			color:white !important;
+		}	
+
+
+		#Title2 {
+
+			font-family: DrukWide;
+			font-size:190px;
+			position:absolute;
+			color:yellow;
+			text-transform: uppercase;
+			margin-bottom:0px;
+			left:50px;
+			top:500px;
+			z-index:3;
+			width:1000px;
+			cursor: url(../CURSOR/Cursor_DExclamation-Blue.png), pointer;
+		}
+
+
+		#MainSub{
+
+			font-family: DrukWide;
+			font-size:45px;
+			position:absolute;
+			color:blue;
+			text-align:left;
+			vertical-align: middle;
+			text-transform: uppercase;
+			left:50px;
+			top:1050px;
+			z-index:3;
+			width:700px;
+			cursor: url(../CURSOR/Cursor_DExclamation-White.png), pointer;
+		}
+
+
+		#MainSubBack {
+			background-color:yellow;
+			padding-left:10px;
+			padding-right:10px;
+			padding-top:5px;
+		}
+
+		#Sub2 {
+			font-family: Druk;
+			font-size:30px;
+			position:absolute;
+			color:blue;
+			text-align:left;
+			vertical-align: middle;
+			left:550px;
+			top:1200px;
+			z-index:3;
+			word-wrap:normal;
+			width:400px;
+			cursor: url(../CURSOR/Cursor_DExclamation-Yellow.png), pointer;
+
+		}
+
+		#Sub3 {
+			font-family: Druk;
+			font-size:30px;
+			position:absolute;
+			color:blue;
+			text-align:left;
+			vertical-align: middle;
+			left:50px;
+			top:1440px;
+			z-index:3;
+			word-wrap:normal;
+			width:400px;
+			cursor: url(../CURSOR/Cursor_DExclamation-White.png), pointer;
+
+		}
+
+		#Paragraph {
+			font-family: Druk;
+			font-size:15px;
+			position:absolute;
+			color:black;
+			text-align:left;
+			line-height:17px;
+			vertical-align: middle;
+			left:50px;
+			top:1500px;
+			z-index:3;
+			word-wrap:normal;
+			text-align: justify;
+			text-justify: inter-word;
+			width:400px;
+			cursor: url(../CURSOR/Cursor_DExclamation-Blue.png), pointer;
+
+		}
+
+		.hoverShapeFill {
+			background:white !important;
+		}	
+
+		.hoverShapeOutline {
+		border: 6px solid white !important;
+		}	
+
+		#LCircle {
+		 	width: 400px; 
+		 	height: 400px; 
+		 	background: blue; 
+		 	border-radius: 50%;
+		 	top:900px;
+			left:20px;
+			position:absolute;
+			z-index:2;
+		}
+
+
+		#MCircle {
+		 	width: 270px; 
+		 	height: 270px; 
+		 	background: transparent; 
+		 	border: 6px solid yellow;
+		 	border-radius: 50%;
+		 	top:1175px;
+			left:800px;
+			position:absolute;
+			z-index:2;
+		}
+
+		#SCircle {
+		 	width: 175px; 
+		 	height: 175px; 
+		 	background: black; 
+		 	border-radius: 50%;
+		 	top:940px;
+			left:690px;
+			position:absolute;
+			z-index:3;
+		}
+
+		#Rectangle {
+			height: 325px;
+			width: 500px;
+			background-color: none;
+			outline-style: solid;
+			outline-color: blue;
+			outline-width: 6px;
+			top: 1300px;
+			left: 550px;
+			position: absolute;
+			z-index:25;
+			}
+
+		#RectangleLine1 {
+			width: 6px;
+			height: 596px;
+			left:248px;
+			top:-136px;
+			background-color: blue;
+			transform: rotate(-56.9deg);
+			position: absolute;
+			z-index:25;
+		}
+
+		#RectangleLine2	{
+			width: 6px;
+			height: 596px;
+			left:248px;
+			top:-136px;
+			background-color: blue;
+			transform: rotate(56.9deg);
+			position: absolute;
+			z-index:25;
+		}
+
+
+		.hoverRectangleOutline {
+			outline-color:white !important;
+			}	
+
+		.hoverRectangleLine {
+			background-color:white !important;
+			}		
+
+
+		#Bar1 {
+			width:950px;
+			height:170px;
+			background-color:blue;
+			top:46px;
+			left:50px;
+			position:absolute;
+			z-index:1;
+
+		}
+
+		#Bar2 {
+			width:950px;
+			height:170px;
+			background-color:black;
+			top:682px;
+			left:50px;
+			position:absolute;
+			z-index:1;
+		}
+
+
+/*ATTRIBUTE/MENU BUTTONS*/
+
+
+		#MENU_RIGHT {
+			width:400px;
+			height:93vh;
+			top:50px;
+			left:64%;
+			overflow-y: scroll;
+			background-color:transparent;
+			z-index:10;
+			position:absolute ;
+		}
+
+	
+	/*TEXT BUTTONS*/
+
+
+		.menustyle {
+			transition:all 0.2s;
+		}
+
+
+		.menustyle:hover {
+			text-indent:10px;
+		}
+
+
+		.title_menubox {
+			padding:0.25em;
+			white-space: nowrap;
+			height:1em;
+			overflow:hidden;
+			transition:all 0.2s;
+			margin:0.5em 0em 1em 0em; 
+			width: 18em;
+		}
+
+
+		.title_menubox:hover {
+			height:6.7em;
+		}
+		
+
+		.title_menubox_B {
+			padding:0.25em;
+			white-space: nowrap;
+			height:1em;
+			overflow:hidden;
+			transition:all 0.2s;
+			margin:0.5em 0em 1em 0em; 
+			width: 18em;
+		}
+
+		.title_menubox_B:hover {
+			height:5.4em;
+		}
+
+		#title1_menubox {background-color:blue; }
+		#title2_menubox {background-color:black; }
+		#mainsub_menubox {background-color:yellow; }
+		#sub2_menubox {background-color:blue;}
+		#sub3_menubox {background-color:black;}
+		#para_menubox {background-color:yellow;}
+
+
+		#title1_menu{
+			font-family: DrukWide;
+			color:black;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:6;
+			cursor: url(../CURSOR/Cursor_Hand-Black.png), pointer;
+		}
+
+
+
+		.title1_menustyle {
+			font-family: DrukWide;
+			color:yellow;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:6;
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+
+		#title2_menu {
+			font-family: DrukWide;
+			color:yellow;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:5;
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+
+		.title2_menustyle{
+			font-family: DrukWide;
+			color:blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:5;
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+
+		#mainsub_menu {
+			font-family: DrukWide;
+			color: blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:4;
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+		
+		.mainsub_menustyle {
+			font-family: DrukWide;
+			color:black;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:4;
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+		#sub2_menu {
+			font-family: DrukWide;
+			color: white;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:3;
+			cursor: url(../CURSOR/Cursor_Hand-Black.png), pointer;
+		}
+		
+		.sub2_menustyle {
+			font-family: DrukWide;
+			color:yellow;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:3;
+			cursor: url(../CURSOR/Cursor_Hand-Black.png), pointer;
+		}
+
+		#sub3_menu {
+			font-family: DrukWide;
+			color: blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:2;
+			cursor: url(../CURSOR/Cursor_Hand-Yellow.png), pointer;
+		}
+		
+		.sub3_menustyle {
+			font-family: DrukWide;
+			color:white;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:2;
+			cursor: url(../CURSOR/Cursor_Hand-Yellow.png), pointer;
+		}
+
+		#para_menu {
+			font-family: DrukWide;
+			color: blue;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+		
+		.para_menustyle {
+			font-family: DrukWide;
+			color:black;
+			font-size:17pt;
+			text-align:left;
+			line-height: 17pt;
+			vertical-align: middle;
+			letter-spacing: 1pt;
+			margin:auto;
+			z-index:1;
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+
+	/*SHAPE BUTTONS*/
+
+
+		#bar_menu_container {
+			padding:0.25em;
+			white-space: nowrap;
+			height:260px;
+			overflow:hidden;
+			transition:all 0.2s;
+			margin:0.5em 0em 1em 0em; 
+			width: 18em;
+		}
+
+		.bar1_style {
+			width:60px;
+			height:250px;
+			background-color:blue;
+			top:340px;
+			margin-right:52px;
+			z-index:10;
+			padding:0;
+			display:inline-block;
+		}
+
+		.bar1_style:hover {
+			text-indent:10px;
+		}
+
+		#bar1_color{
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+		#bar1_move {
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+		#bar1_rotate {
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+
+		.bar1_label {
+			font-family: Druk;
+			color:yellow;
+			font-size:14pt;
+			text-align:center;
+			line-height: 0;
+			left:1%;
+			top:27%;
+			position:relative;
+			vertical-align: middle;
+			letter-spacing: 1.5pt;
+			transform:rotate(90deg);
+			margin:0;
+			z-index:1;
+			padding:0;
+		}
+
+
+
+		#bar2_menu_container {
+			padding:0.25em;
+			white-space: nowrap;
+			height:260px;
+			overflow:hidden;
+			transition:all 0.2s;
+			margin:0.5em 0em 1em 0em; 
+			width: 18em;
+		}
+
+		.bar2_style {
+			width:60px;
+			height:250px;
+			background-color:black;
+			top:740px;
+			margin-right:52px;
+			z-index:10;
+			padding:0;
+			display:inline-block;
+		}
+
+		.bar2_style:hover {
+			text-indent:10px;
+		}
+
+		#bar2_color{
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+		#bar2_move {
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+		#bar2_rotate {
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+		.bar2_label {
+			font-family: Druk;
+			color:white;
+			font-size:14pt;
+			text-align:center;
+			line-height: 0;
+			left:1%;
+			top:27%;
+			position:relative;
+			vertical-align: middle;
+			letter-spacing: 1.5pt;
+			transform:rotate(90deg);
+			margin:0;
+			z-index:1;
+			padding:0;
+		}
+		
+	/*PRINT BUTTON*/
+
+		#print_button {
+			background-color:blue;
+			border-style: solid;
+			border-color: yellow;
+			border-width: 6px;
+			width:18em;
+			height:100px;
+			margin-left:0px;
+			margin-top:20px;
+			padding:0.25em;
+			display:inline-block;
+			left:0px;
+		}
+
+
+		#print_button:hover {
+			background-color:yellow;
+			border-color: blue;
+			cursor: url(../CURSOR/Cursor_Arrow-Black.png), pointer;
+			}
+
+		#print_rectangle2 {
+			width:17.25em;
+			height:90px;
+			background-color:white;
+			margin:0px;
+			left:1.75%;
+			top:5%;
+			position:relative;
+			}
+
+		#print_rectangle2:hover {
+			background-color:blue;
+			cursor: url(../CURSOR/Cursor_Arrow-Yellow.png), pointer;
+			}
+
+		#print_label{
+			font-family: DrukWide;
+			color:black;
+			margin:0;
+			line-height:35px;
+			letter-spacing: 1pt;
+			font-size:20pt;
+			text-align:center;
+			position:relative;
+			width:280px;
+			top:16%;
+			left:0%;
+		}
+
+		#print_label:hover {
+			color:white;
+			cursor: url(../CURSOR/Cursor_Hand-Yellow.png), pointer;
+			}
+
+	
+
+/*LEFT MENU ITEMS*/
+
+
+		#MENU_LEFT {
+			width:200px;
+			height:93vh;
+			top:50px;
+			left:20px;
+			overflow-y: scroll;	
+			background-color:transparent;
+			z-index:10;
+			position:absolute;
+			-ms-overflow-style: none;  
+    		overflow: -moz-scrollbars-none; 
+		}
+
+	/*SHAPE BUTTONS*/	
+
+	/*RECTANGLE OBJECT BUTTONS:*/
+
+		.rectangle_label {
+			font-family: Druk;
+			font-size:14pt;
+			letter-spacing: 1pt;
+			color: blue;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+	}
+
+		.rectangle_attribute {
+			height: 80px;
+			width: 125px;
+			background-color: transparent;
+			outline-style: solid;
+			outline-color: yellow;
+			outline-width: 3.5px;
+			position: absolute;
+			z-index:3;
+			cursor: url(../CURSOR/Cursor_Hand-Black.png), pointer;
+		}
+
+		.rectangle_attribute:hover {
+			text-indent:10px;
+		}
+
+		.rectattribute_line1 {
+			width: 3.5px;
+			height: 148px;
+			left:61px;
+			top:-35px;
+			background-color: yellow;
+			transform: rotate(58deg);
+			position: absolute;
+			z-index:3;
+	}
+
+		.rectattribute_line2 {
+			width: 3.5px;
+			height: 148px;
+			left:61px;
+			top:-35px;
+			background-color: yellow;
+			transform: rotate(-58deg);
+			position: absolute;
+			z-index:3;
+	}
+
+		#rectangle_color {
+			top: 10px;
+			left: 30px;
+	}
+
+		#rectangle_move {
+			top: 120px;
+			left: 30px;
+	}
+
+
+		#rectangle_rotate {
+			top: 235px;
+			left: 30px;
+	}
+
+	
+
+	/*L CIRCLE OBJECT BUTTONS:*/
+
+		.lcircle_style {
+			width: 120px; 
+		 	height: 120px; 
+		 	background-color: blue; 
+		 	border-radius: 50%;	
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+		.lcircle_style:hover {
+			text-indent:10px;
+		}
+
+
+		#lcircle_color {
+			top:350px;
+			left:30px;
+		}
+
+
+		#lcircle_fill {
+			top:500px;
+			left:30px;
+	
+		}
+
+		#lcircle_placement {
+			top:650px;
+			left:30px;
+		}
+
+
+		.lcircle_label {
+			font-family: Druk;
+			font-size:14pt;
+			letter-spacing: 1pt;
+			color: yellow;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+		}
+
+
+
+		.LargeL {
+			font-family: Druk;
+			font-size:70pt;;
+			color: black;
+			margin:none;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:53%;
+			z-index:3;
+
+		}
+
+
+	/*M CIRCLE OBJECT BUTTONS:*/
+
+		.mcircle_style {
+			width: 100px; 
+		 	height: 100px; 
+		 	background-color: transparent; 
+		 	border-radius: 50%;
+		 	border:3.5px solid blue;
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor: url(../CURSOR/Cursor_Hand-Blue.png), pointer;
+		}
+
+		.mcircle_style:hover {
+			text-indent:10px;
+		}
+
+		.mcircle_label {
+			font-family: Druk;
+			font-size:14pt;
+			letter-spacing: 1pt;
+			color: black;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+		}
+
+		.MedM {
+			font-family: Druk;
+			font-size:55pt;;
+			color: yellow;
+			margin:none;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:53%;
+			z-index:3;
+		}
+
+
+		#mcircle_color {
+			top:800px;
+			left:31px;
+		}
+
+	
+		#mcircle_fill {
+			top:935px;
+			left:31px;
+		}
+
+
+		#mcircle_placement {
+			top:1065px;
+			left:28px;
+		}
+
+
+	/*SCIRCLE OBJECT BUTTONS:*/
+
+		.scircle_style {
+			width: 85px; 
+		 	height: 85px; 
+		 	background-color: black; 
+		 	border-radius: 50%;
+			float:left;
+			position:absolute;
+			z-index:10;
+			transition:all 0.2s;
+			cursor: url(../CURSOR/Cursor_Hand-White.png), pointer;
+		}
+
+		.scircle_style:hover {
+			text-indent:10px;
+		}
+
+		.scircle_label {
+			font-family: Druk;
+			font-size:14pt;
+			letter-spacing: 1pt;
+			color: yellow;
+			margin:auto;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:50%;
+			z-index:4;
+		}
+
+		.SmallS {
+			font-family: Druk;
+			font-size:55pt;;
+			color: blue;
+			margin:none;
+			line-height: 0;
+			text-align:center;
+			vertical-align: middle;
+			position:relative;
+			top:54%;
+			z-index:3;
+		}
+
+
+		#scircle_color {
+			top:1200px;
+			left:40px;
+		}
+
+	
+		#scircle_fill {
+			top:1310px;
+			left:40px;
+		}
+
+
+		#scircle_placement {
+			top:1420px;
+			left:40px;
+		}
+
+
+
+	
+
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+
